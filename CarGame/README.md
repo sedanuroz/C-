@@ -160,17 +160,6 @@ thread. In this way, each car can move independently of each other.
  The game.txt and cars.txt files must be used in binary form. For this, fread and fwrite functions should be used.
  The points.txt file is not in binary structure. Writing to this file must be done using fprintf/fscanf functions.
  Mutex must be used when writing to the Cars.txt file.
-ADDITIONAL INFORMATION
- We share two files with you: game.exe and game.cpp.
- The game.exe is the working versions of the requested game. Try running the game.exe file on cygwin.
- This assignment will be done in a group of two students.
- You must send an e-mail to oayana@atu.edu.tr with information about who you will be in a group with by April 24, 23.59.
- I will randomly match students who do not provide group information.
- To compile game.cpp you should use this code: g++ game.cpp -o game -lncurses
-ASSIGNMENT SUBMISSION
- The game.cpp file is template code of the project. Just fill in the game.cpp and submit.
- Information about who and how wrote the functions must be written above the function as a comment line. Care should be
-taken to write common functions equally.
- Students within the group must submit their solutions individually.
+
 
 
